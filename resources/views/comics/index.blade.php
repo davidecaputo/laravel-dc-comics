@@ -3,6 +3,7 @@
 @section('content')
 <div class="h-100 bg-danger">
     <h1 class="text-center text-white py-4">Comics</h1>
+    <h2 class="text-center py-4"><a href="{{ route('comics.create') }}" class="text-info-emphasis">Clicca qui per inserire un nuovo Comic</a></h2>
     <div class="content">
         <div class="row mx-5">
             @foreach ($comics as $comic)

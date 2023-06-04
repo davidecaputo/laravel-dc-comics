@@ -2,7 +2,10 @@
 
 @section('content')
 <div class="bg-dark">
-    <div class="container p-5 d-flex justify-content-center">
+    <div class="container p-5 d-flex flex-column align-items-center">
+        <div class="pb-5">
+            <a href="{{route('comics.index')}}" class="fs-1">Comics</a>
+        </div>
         <div class="card w-50 p-4 bg-danger-subtle">
             <img src="{{ $comic->image }}" alt="{{ $comic->title }}" class="rounded-5">
             <div class="card-body">
