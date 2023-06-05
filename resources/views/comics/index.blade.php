@@ -20,6 +20,7 @@
                         <p class="fw-bold">Artisti: {{$comic->artists}}</p>
                         <p class="fw-bold">Scrittori: {{$comic->writers}}</p>
                         <a href="{{ route('comics.show', ['comic'=> $comic->id]) }}" class="btn btn-success">Dettagli</a>
+                        <a href="{{ route('comics.edit', $comic->id) }}" class="btn btn-warning">Modifica</a>
                     </div>
                 </div>
             </div>

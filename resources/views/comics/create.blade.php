@@ -42,6 +42,7 @@
             <label for="description">Descrizione</label>
         </div>
         <button type="submit" class="btn btn-primary">Invio</button>
+        <button type="reset" class="btn btn-primary">Reset</button>
     </form>
 </div>
 @endsection
